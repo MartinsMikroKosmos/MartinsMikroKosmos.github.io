@@ -1,4 +1,5 @@
 import React from 'react'
+import Modell from "../model/Shopping";
 
 class GruppeBearbeitenTag extends React.Component {
   constructor(props) {
