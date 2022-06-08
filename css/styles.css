@@ -12,23 +12,11 @@
   --mdc-theme-primary: #e77600;
   --mdc-theme-secondary: #FAB400;
 }
-dt {
-  background-color: #546B4E;
-  color: var(--mdc-theme-on-primary);
-  margin-right: 0px;
-  margin-left: 5px;
-  font-family: "Propaganda";
-  text-align: center;
-  -webkit-text-stroke: 1px #546B4E;
-}
 h2, dd {
   background-color: var(--mdc-theme-on-primary);
   color: #546B4E;
   font-family: "Propaganda";
 }
-/**
-noch zu erledigen icon
- */
 #icon {
   font-size: 30px;
   display: flex;
@@ -36,7 +24,7 @@ noch zu erledigen icon
 }
 #my-dialog-title {
   font-family: Propaganda;
-  background-color: #8BDB79;
+  background-color: #B6C67C;
   color: #546B4E;
 }
 .aktiv { background-color: #85649E }
@@ -71,12 +59,17 @@ button.material-icons {
   margin-right: 8px;
 }
 dt {
+  background-color: #546B4E;
+  color: var(--mdc-theme-on-primary);
+  margin-right: 5px;
+  margin-left: 5px;
+  margin-bottom: 2px;
+  font-family: "Propaganda";
+  text-align: center;
+  -webkit-text-stroke: 1px #546B4E;
   display: flex;
   font-weight: 500;
-  padding: 6px 0 3px 10px;
-  margin-right: 15%;
-  margin-left: 15%;
-  margin: 3px;
+  padding: 6px 4px 3px 10px;
   overflow: hidden;
   text-overflow: ellipsis;
 }
@@ -86,14 +79,15 @@ dt span {
 dt, dd {
   height: 2rem;
   font-size: 1.2rem;
-  border-radius: 10px;
+  border-radius: 10px 10px 0 10px;
 }
 dd {
   display: flex;
-  margin-left: 5px;
-  margin-right: 15px;
-  margin: 3px;
-  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+  border-radius: 0px 10px 10px 10px;
   color: #546B4E;
   padding: 0px 0 3px 0;
 }
@@ -127,7 +121,7 @@ footer {
 .mdc-dialog__surface {
   position: absolute;
   top: 10%;
-  left: 25px;
+  left: 37px;
 }
 .material-icons {
   font-family: 'Material Icons';
@@ -151,13 +145,21 @@ footer {
   border-radius: 10px;;
 }
 hr {
-  color: #8BDB79;
+  color: #B6C67C;
   opacity: 0;
 }
 .material-icons.mdc-text-field__icon.mdc-text-field__icon--trailing {
   width: 10%;
 }
 .mdc-dialog .mdc-dialog__surface {
-  background-color: #8BDB79;
+  background-color: #B6C67C;
   opacity: 95%;
+}
+#sortieren {
+  left: 25px;
+}
+li {
+  font-family: Propaganda;
+  color: #546B4E;
+  margin-left: 2rem;
 }
