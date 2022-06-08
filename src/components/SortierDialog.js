@@ -22,7 +22,7 @@ class SortierDialog extends React.Component {
     return (
       <div className="mdc-dialog mdc-dialog--open">
         <div className="mdc-dialog__container">
-          <div className="mdc-dialog__surface">
+          <div id="sortieren" className="mdc-dialog__surface">
             <h2 id="my-dialog-title" className="mdc-dialog__title">Wähle die Sortierung:</h2>
 
             <div className="mdc-dialog__content">
