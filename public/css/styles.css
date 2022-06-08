@@ -48,6 +48,10 @@ h2 {
   border-radius: 10px;
   font-size: medium;
   text-shadow: 1px 1px 1px #B6C67C;
+  transition: 0.5s ease-in;
+}
+h2:hover {
+  color: #85649E;
 }
 i.material-icons {
   cursor: pointer;
@@ -78,6 +82,10 @@ dt {
   text-overflow: ellipsis;
   transition: 500ms ease-in;
 }
+dt:hover{
+  color: #546B4E;
+  text-shadow: 1px 1px 1px #B6C67C;
+}
 dt span {
   width: 100%;
 }
@@ -96,7 +104,11 @@ dd {
   color: #546B4E;
   text-shadow: 1px 1px 1px #B6C67C;
   padding: 0px 0 3px 0;
-  transition: 2s;
+  transition: 0.5s;
+}
+dd:hover{
+  color: #85649E;
+  background-color: #B6C67C;
 }
 dd label {
   padding: 3px 0 3px 0;
