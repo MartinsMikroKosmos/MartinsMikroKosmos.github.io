@@ -83,7 +83,7 @@ dt {
   transition: 500ms ease-in;
 }
 dt:hover{
-  color: #546B4E;
+  color: #AB6863;
   text-shadow: 1px 1px 1px #B6C67C;
 }
 dt span {
