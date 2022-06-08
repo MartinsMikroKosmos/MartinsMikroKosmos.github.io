@@ -4,6 +4,10 @@
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
+  border-radius: 5px;
+}
+#root:hover .dd {
+  transform: translateX(100%);
 }
 #container {
   opacity: 90%;
@@ -72,6 +76,7 @@ dt {
   padding: 6px 4px 3px 10px;
   overflow: hidden;
   text-overflow: ellipsis;
+  transition: 1s;
 }
 dt span {
   width: 100%;
@@ -90,6 +95,7 @@ dd {
   border-radius: 0px 10px 10px 10px;
   color: #546B4E;
   padding: 0px 0 3px 0;
+  transition: 2s;
 }
 dd label {
   padding: 3px 0 3px 0;
@@ -157,6 +163,7 @@ hr {
 }
 #sortieren {
   position: absolute;
+  alignment: center;
   left: 25px;
 }
 li {
@@ -164,3 +171,10 @@ li {
   color: #546B4E;
   margin-left: 2rem;
 }
+header {
+  background-image: url("../img/ashutosh-saraswat-CXyz3qljaH8-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+}
+
