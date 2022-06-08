@@ -66,6 +66,7 @@ class App extends React.Component {
   lsLoeschen() {
     if (confirm("Wollen Sie wirklich alles löschen?!")) {
       localStorage.clear()
+      window.location.reload()
     }
   }
 
