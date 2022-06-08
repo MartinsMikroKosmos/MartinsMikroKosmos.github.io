@@ -20,9 +20,6 @@ class GruppenTag extends React.Component {
     }
   }
 
-  /**
-   * Rendert die Gruppe
-   */
   componentDidMount() {
     let aufgeklappt = localStorage.getItem("gruppe-" + this.props.gruppe.id)
     aufgeklappt = (aufgeklappt == null) ? true : JSON.parse(aufgeklappt)

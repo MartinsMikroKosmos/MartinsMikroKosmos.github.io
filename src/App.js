@@ -43,7 +43,7 @@ class App extends React.Component {
   }
 
   /**
-   * lässt die Gruppe noch zu erledigen auf und zu klappen
+   * klappt die Kategorie noch zu erledigen auf und zu
    */
   einkaufenAufZuKlappen() {
     const neuerZustand = !this.state.einkaufenAufgeklappt
@@ -52,7 +52,7 @@ class App extends React.Component {
   }
 
   /**
-   * lässt die Gruppe erledigt auf und zu klappen
+   * klappt die Kategorie erledigt auf und zu
    */
   erledigtAufZuKlappen() {
     const neuerZustand = !this.state.erledigtAufgeklappt
@@ -95,8 +95,8 @@ class App extends React.Component {
   }
 
   /**
-   * markiert die Aktive Gruppe
-   * @param {gruppe} gruppe - die aktuell angewählte Gruppe
+   * markiert die Aktive Gruppe farbig nur in der aktiven Gruppen task hinzu
+   * @param {gruppe} gruppe - die aktuell angewählte Gruppe wird gesetzt
    */
   setAktiveGruppe(gruppe) {
     Modell.aktiveGruppe = gruppe
@@ -107,7 +107,7 @@ class App extends React.Component {
   /**
    * schließt den Sortierdialog
    * @param {reihenfolge} reihenfolge merkt sich den Index der Artikel
-   * @param {sortieren} sortieren merkt sich die neue Reihenfolge
+   * @param {sortieren} sortieren aufsteigend absteigend
    */
   closeSortierDialog = (reihenfolge, sortieren) => {
     if (sortieren) {
