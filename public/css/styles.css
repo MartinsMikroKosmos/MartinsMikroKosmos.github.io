@@ -63,6 +63,7 @@ dt {
   color: var(--mdc-theme-on-primary);
   margin-right: 5px;
   margin-left: 5px;
+  margin-bottom: 2px;
   font-family: "Propaganda";
   text-align: center;
   -webkit-text-stroke: 1px #546B4E;
