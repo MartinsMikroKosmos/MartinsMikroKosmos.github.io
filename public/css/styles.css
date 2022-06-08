@@ -156,8 +156,8 @@ hr {
   opacity: 95%;
 }
 #sortieren {
+  position: absolute;
   left: 25px;
-  right: 65px;
 }
 li {
   font-family: "Eczar";
