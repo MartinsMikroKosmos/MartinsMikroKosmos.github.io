@@ -76,7 +76,7 @@ dt {
   padding: 6px 4px 3px 10px;
   overflow: hidden;
   text-overflow: ellipsis;
-  transition: 1s ease-in;
+  transition: 500ms ease-in;
 }
 dt span {
   width: 100%;
@@ -163,9 +163,8 @@ hr {
   opacity: 95%;
 }
 #sortieren {
-  position: absolute;
-  alignment: center;
-  left: 25px;
+  position: inherit;
+  margin-right: 8rem;
 }
 li {
   font-family: "Eczar";
