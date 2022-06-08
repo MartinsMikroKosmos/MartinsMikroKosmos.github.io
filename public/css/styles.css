@@ -34,11 +34,12 @@ h1, h2, dl {
   margin: 7px;
 }
 h1 {
-  color: #000000;
+  color: #85649E;
   text-align: center;
   font-family: "Eczar";
   padding: 12px 0 5px 0;
   font-size-adjust: inherit;
+  text-shadow: 1px 2px 2px #212121;
 }
 h2 {
   padding: 10px 0 10px 15px;
@@ -46,6 +47,7 @@ h2 {
   margin-right: 17%;
   border-radius: 10px;
   font-size: medium;
+  text-shadow: 1px 1px 1px #B6C67C;
 }
 i.material-icons {
   cursor: pointer;
@@ -61,7 +63,8 @@ button.material-icons {
 }
 dt {
   background-color: #546B4E;
-  color: var(--mdc-theme-on-primary);
+  color: #ffffff;
+  text-shadow: 1px 1px 1px #B6C67C;
   margin-right: 5px;
   margin-left: 5px;
   margin-bottom: 2px;
@@ -91,6 +94,7 @@ dd {
   margin-bottom: 3px;
   border-radius: 0px 10px 10px 10px;
   color: #546B4E;
+  text-shadow: 1px 1px 1px #B6C67C;
   padding: 0px 0 3px 0;
   transition: 2s;
 }
