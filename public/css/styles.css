@@ -15,7 +15,7 @@
 h2, dd {
   background-color: var(--mdc-theme-on-primary);
   color: #546B4E;
-  font-family: "Patrick Hand";
+  font-family: "Eczar";
 }
 #icon {
   font-size: 30px;
@@ -23,7 +23,7 @@ h2, dd {
   justify-content: center;
 }
 #my-dialog-title {
-  font-family: "Patrick Hand";
+  font-family: "Eczar";
   background-color: #B6C67C;
   color: #546B4E;
 }
@@ -35,7 +35,7 @@ h1, h2, dl {
 h1 {
   color: #546B4E;
   text-align: center;
-  font-family: "Patrick Hand";
+  font-family: "Eczar";
   padding: 12px 0 5px 0;
   font-size-adjust: inherit;
 }
@@ -64,9 +64,9 @@ dt {
   margin-right: 5px;
   margin-left: 5px;
   margin-bottom: 2px;
-  font-family: "Patrick Hand";
+  font-family: "Eczar";
   text-align: center;
-  -webkit-text-stroke: 1px #546B4E;
+  /*-webkit-text-stroke: 1px #546B4E;*/
   display: flex;
   font-weight: 500;
   padding: 6px 4px 3px 10px;
@@ -157,9 +157,10 @@ hr {
 }
 #sortieren {
   left: 25px;
+  right: 65px;
 }
 li {
-  font-family: "Patrick Hand";
+  font-family: "Eczar";
   color: #546B4E;
   margin-left: 2rem;
 }
